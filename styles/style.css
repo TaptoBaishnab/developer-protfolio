@@ -1,6 +1,6 @@
-/* common shared style  */
-body{
-    font-family: 'Lato' , sans-serif;
+/* common shared styles */
+*{
+
     font-family: "Open Sans", sans-serif;
 }
 .text-primary{
@@ -22,39 +22,41 @@ body{
     font-weight: 700;
 }
 .section-description{
-    color: #757575;
+    color: #000;
     text-align: center;
     font-size: 18px;
 }
 /* nav related styles */
 nav{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0 150px;
+    
+   
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
-    font-weight: 800;
-   
+    font-weight: 700;
 }
 nav > ul{
     display: flex;
     align-items: center;
 }
-nav li {
+nav li{
     list-style: none;
-    margin-right: 50px;
+    margin-right:50px;
 }
 nav a{
     text-decoration: none;
-    color: #474747;
+  
 }
+
 /* header related style  */
 .header{
-    background-color: #fff8f3;
-    background-image: url('../images1/header_bg.png');
+    background-color:#fff8f3; 
+    background-image: url("../images1/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -64,22 +66,25 @@ nav a{
     align-items: center;
     justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px;
-}
 .profile-pic{
     width: 500px;
 }
 .banner-greeting{
     font-size: 45px;
-    color:#474747 ;
-    margin-bottom: 0px;
+    color: #474747;
+    margin-bottom:0;
 }
 .banner-title{
     font-size: 85px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+.banner-discription{
+    color: #000;
+}
+.banner-content{
+max-width: 500px;
 }
 
 /* main section style  */
@@ -88,93 +93,96 @@ main{
     margin: 0 auto;
 }
 main section{
-    margin-top: 130px;
+    margin-top: 100px;
 }
-
 /* about section style  */
 .about{
-   padding: 100px; 
-   background: #fff8f3 ;
-   border-radius: 10px;
-   margin: 100px 0;
+    padding: 90px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 100px 0;
 }
 .about-info-container{
     display: flex;
-    justify-content:space-around ;
-
+    justify-content: space-around;
 }
 .about-info{
     text-align: center;
-}  
+}
 
-/* skill related styles */
+/* skills related styles */
 
 #What-i-do-desccription{
-padding: 30px 150px;
+    padding:30px 150px ;
 }
 .skills-continer{
     display: flex;
     gap: 24px;
 }
 .skill{
-    padding: 30px;
+    padding:30px;
     border-radius: 5px;
-    background: #fff8f3;
-    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06) ;
-    
+    background: #fff;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+   
 }
 .skill-description{
-    color: #757575;
+    color: #000;
 }
-/* Resume Section style  */
+
+/* Resume Section Styles */
 .resume-cloumn-title{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
 }
 .resume-container{
-    display: flex;
+    display:flex;
     gap: 50px;
-}
-.resume-tiem-description ,.resume-item-institute{
-    color:#757575 ;
+
 }
 .resume-item-title{
     color: #474747;
     font-size: 25px;
-    font-weight: 700;
-    margin-bottom:10px;
+    font-weight:700;
+    margin-bottom: 10px;
 }
 .resume-item-institute{
-    margin-top: 0px;
     margin-bottom: 20px;
+    margin-top: 0px;
 }
-.resume-container hr {
+.resume-tiem-description ,.resume-item-institute{
+   color: #757575; 
+}
+.resume-container hr{
     margin: 30px;
 }
 .download-cv{
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer style  */
 footer{
     display: flex;
     gap: 100px;
     background: #fff8f3;
-    padding:130px 200px;
-    margin-top: 100px;
+    padding: 130px 200px;
+    margin-top: 90px;
 }
 .footer-column{
     width: 50%;
 }
-.contact input[type="text"],input[type="email"],
-textarea{
+.social-link a{
+    margin-right: 25px;
+}
+.contact input[type="text"], input[type="email"] ,textarea {
     display: block;
     margin-bottom: 25px;
-    padding:18px 35px ;
-    color: #757575;
-    border-radius: 5px;
+    padding: 18px 35px;
+    color: #000;
     background: #fff;
+    border-radius: 5px;
     border: 0;
     width: 100%;
 }
